@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="template initial">
+        <!--Fuente usada "Krub" con los dos estilos 400 y 700(bold)-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="estilos/style.css">
+        <script src="scripts/actions.js"></script> 
+        <script src="scripts/validar.js"></script> 
+        <title>Contacto</title>
+    </head>
+
+    <body>
+
+        <header class="hd-cabecera contacto">
+            <div class="contenido-cabecera">
+                <h1>Contacto</h1>
+            </div>
+        </header>
+        <hr>
+        <main class="contenedor">
+            <nav id="nav-navegacion">
+            
+                <ul ls-navegacion>
+                    <li id="link-nav"><a href="index.html">Inicio</a></li>
+                    <li id="link-nav"><a href="estudios.html">Estudios</a></li>
+                    <li id="link-nav"><a href="proyectos.html">Proyectos</a></li>
+                    <li id="link-nav"><a href="pasatiempos.html">Pasatiempos</a></li>
+                    <li id="link-nav"><a href="contacto.html">Contacto</a></li>
+                </ul>
+    
+            </nav>
+    
+            <hr>
+    
+            <section id="section-contenido">
+                
+                <article id="article-5">
+                    <legend id="title-contacto">Para contactarme por favor llenar los siguientes datos:</legend>
+                    <img src="estilos/media/contacto2.png" alt="img contacto">  
+                    <form id="form-contacto" action="">
+
+                        <fieldset>
+                            <div>
+                                <label for="txt-nombre">Nombre:</label><br>
+                                <input style="height: 35px;"  type="text" class="input-text" name="inputbox1" placeholder="Tu Nombre"><br>
+                                <label for="txt-correo">Correo:</label><br>
+                                <input style="height: 35px;" type="text" class="input-text" name="inputbox2" placeholder="Tu Correo"><br><br>
+                                <label for="txt-mensaje">Mensaje:</label><br>
+                                <textarea rows="6" type="text" class="input-text" name="inputbox3" value="Mensaje"></textarea>
+                            </div>
+                            <div class="btn-alinerar">
+                                <input id="btn-input" type="submit" value="Enviar" onclick="runSubmit(this.form, this)">
+                            </div>
+                        </fieldset>
+                    </form>
+    
+                </article>
+           
+            </section>
+            <hr>
+        </main>
+        
+        <footer id="footer-redes">
+            <h4>Copyrigth 2022 ❤️ Universidad del Cauca</h4>
+            <a href="https://es-la.facebook.com/"><img src="archivos/facebook.png" alt="Facebook" width="2%"></a>
+            <a href="https://twitter.com/?lang=es"><img src="archivos/twitter.png" alt="Twitter" width="2%"></a>
+            <a href="https://www.instagram.com/"><img src="archivos/instagram.png" alt="Instagram" width="2%"></a>
+        </footer>
+
+    </body>
